@@ -23,6 +23,7 @@ public class CrimeFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        String s = "";
         super.onCreate(savedInstanceState);
         mCrime = new Crime();
     }
